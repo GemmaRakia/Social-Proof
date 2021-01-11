@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+
+.pattern .a1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 400px;
+    z-index: -1;
+}
+
+.pattern .a2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 900px;
+    height:600px;
+    z-index: -1;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text {
+    flex: 0,6;
+    padding: 7px;
+    min-width: 300px;
+}
+
+#heading {
+    font-size: 60px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    width: 60%;
+    margin-bottom: 10px;
+    line-height: 4rem;
+}
+#sub-heading {
+    font-size: 16px;
+    font-weight: 400;
+    width: 65%;
+    line-height: 1.7rem;
+    width: 45%;
+    color: hsl(303, 10%, 53%);
+}
+
+.star-rating {
+    flex: 0.5;
+    display: flex;
+    justify-content: end;
+}
+.rating-container {
+    width: 85%;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 450px;
+    padding: 0 5px;
+    align-items: center;
+    
+}
+
+.rating-one,
+.rating-two,
+.rating-three {
+    width: 82%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 70px;
+    background-color:hsl(300, 24%, 96%) ;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.rating-one{
+    align-self: flex-start;
+}
+.rating-two{
+    align-self: center;
+}
+.rating-three{
+    align-self: flex-end;
+}
+
+
+.container-reviews {
+    height: 400px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.card-container {
+    width: 350px;
+    background-color:hsl(300, 43%, 22%) ;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 30px;
+}
+#profile {
+    border-radius: 50%;
+    margin-bottom: -20px;
+    
+    
+}
+strong {
+    color:hsl(0, 0%, 100%);
+    margin-left: 15px;
+}
+#card1 {
+    align-self: flex-start;
+    padding-bottom: 20px;
+}
+#card2 {
+    align-self: center;
+    padding-bottom: 20px;
+    margin-bottom: -50px;
+}
+#card3 {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    margin-bottom: -50px;
+    
+}
+
+#review {
+    align-self: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+#buyer {
+    align-self: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: hsl(333, 80%, 67%);
+    line-height: 1.3rem;
+    
+}
